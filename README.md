@@ -1,1 +1,1 @@
-# Resumen-del-taller-sobre-Colecciones-en-Java
+# Resumen del taller sobre Colecciones en Java
