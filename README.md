@@ -4,10 +4,9 @@ Una colección es un contenedor para un conjunto de elementos de un tipo en una 
 Disponible como framework desde la versión 2, importandose del paquete java.util
 
 ## Framework de Colecciones en Java
-Interfaces: tipos de datos, independientes de su representación
-Implementaciones: concreciones de los diferentes tipos
-Algoritmos: métodos para buscar, ordenar, clasificar.
-Funcionalidades reutilizables.
+Nos ofrece interfaces: tipos de datos, independientes de su representación;
+Implementaciones: concreciones de los diferentes tipos;
+y algoritmos: métodos para buscar, ordenar, clasificar...
 
 Las ventajas que ofrece son:
 
