@@ -3,8 +3,7 @@
 Una colección es un contenedor para un conjunto de elementos de un tipo en una sola unidad, que se utiliza para almacenamiento, recuperación y manipulación de datos. Suelen representar elementos que forman grupos naturales
 Disponible como framework desde la versión 2, importandose del paquete java.util
 
-Framework de Colecciones en Java
-
+## Framework de Colecciones en Java
 Interfaces: tipos de datos, independientes de su representación
 Implementaciones: concreciones de los diferentes tipos
 Algoritmos: métodos para buscar, ordenar, clasificar.
