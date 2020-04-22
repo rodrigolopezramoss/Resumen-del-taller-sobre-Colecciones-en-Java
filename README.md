@@ -22,10 +22,10 @@ La interfaz de colecciones en Java(Collection<E>) hereda de la interfaz Iterable
 
 Las principales operaciones a realizar son las siguientes:
 
--Para tamaño: size y isEmpty
--Para comprobación: contains
--Para añadir y eliminar: add y remove
--Para iterar: iterator
--Para operaciones bulk: containsAll, addAll, removeAll, removeIf, retainAll, clear
--Para transformar en array: toArray
--Para streams: stream, parallelStream
+- Para tamaño: size y isEmpty
+- Para comprobación: contains
+- Para añadir y eliminar: add y remove
+- Para iterar: iterator
+- Para operaciones bulk: containsAll, addAll, removeAll, removeIf, retainAll, clear
+- Para transformar en array: toArray
+- Para streams: stream, parallelStream
