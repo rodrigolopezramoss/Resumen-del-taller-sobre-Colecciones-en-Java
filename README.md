@@ -27,3 +27,8 @@ Las principales operaciones a realizar son las siguientes:
 - Para operaciones bulk: containsAll, addAll, removeAll, removeIf, retainAll, clear
 - Para transformar en array: toArray
 - Para streams: stream, parallelStream
+
+### Set
+Se trata de un Collection<E> que no permite duplicados y que se basa en la abstracción del concepto matemático de conjunto.
+Set no añade ningún método a los heredados de Collection<E> ni tiene acceso “posicional” (i.e. tercer elemento), pero mejora la implementación de los métodos equals y hashCode con respecto a Collection<E>. En Set se toman dos instancias por iguales si contienen los mismos elementos.
+
