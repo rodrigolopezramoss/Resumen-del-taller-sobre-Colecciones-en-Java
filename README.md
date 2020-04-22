@@ -42,5 +42,4 @@ __HashSet<E>__ almacena sus valores en una tabla hash. No podemos predecir nada 
 
 Con __LinkedHashSet<E>__ tenemos un rendimiento mejor que TreeSet<E> pero peor que HashSet<E>. Almacena sus valores en una tabla hash con una lista doblemente enlazada, manteniendo el orden de inserción y la posibilidad de almacenar un valor nulo, pero sigue sin estar sincronizada.
 
-__TreeSet<E>__
-Almacena sus valores en un árbol red-black, manteniendo el orden basado en sus valores pero con peor rendimiento que el resto de opciones. Los elementos deben implementar Comparable y no se permite insertar nulos, además de no ser una implemmentación sincronizada y con rendimiento de O(log(N)) debido a su estructura de árbol.
+__TreeSet<E>__ almacena sus valores en un árbol red-black, manteniendo el orden basado en sus valores pero con peor rendimiento que el resto de opciones. Los elementos deben implementar Comparable y no se permite insertar nulos, además de no ser una implemmentación sincronizada y con rendimiento de O(log(N)) debido a su estructura de árbol.
