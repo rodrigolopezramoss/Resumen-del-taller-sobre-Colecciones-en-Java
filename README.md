@@ -15,7 +15,6 @@ Las ventajas que ofrece son:
 * También fomenta la reutilización de software.
 
 ## Colecciones
-
 La interfaz de colecciones en Java(Collection<E>) hereda de la interfaz Iterable<E>. A su vez, las interfaces __Set<E>__, __List<E>__ y __Queue<E>__ heredan de Collection<E>, pero __Map__ y sus derivados no. Cabe destacar que permite tener una serie de métodos comunes a (casi) todos los tipos de colecciones, teniendo en cuenta que JDK no ofrece ninguna implementación directa de esta interfaz.
 
 Las principales operaciones a realizar son las siguientes:
@@ -43,3 +42,5 @@ __HashSet<E>__ almacena sus valores en una tabla hash. No podemos predecir nada 
 Con __LinkedHashSet<E>__ tenemos un rendimiento mejor que TreeSet<E> pero peor que HashSet<E>. Almacena sus valores en una tabla hash con una lista doblemente enlazada, manteniendo un orden de inserción y la posibilidad de almacenar un valor nulo, pero sigue sin estar sincronizada.
 
 __TreeSet<E>__ almacena sus valores en un árbol red-black, manteniendo un orden basado en sus valores pero con peor rendimiento que el resto de opciones. Los elementos deben implementar Comparable y no se permite insertar nulos, además de no ser una implemmentación sincronizada y con rendimiento de O(log(N)) debido a su estructura de árbol.
+
+### List
