@@ -40,6 +40,6 @@ Set se puede implementar como:
 
 __HashSet<E>__ almacena sus valores en una tabla hash. No podemos predecir nada sobre el orden pero tiene el mejor rendimiento de todas, que se mejora el si se establece una capacidad inicial no muy elevada. Proporciona tiempo constante (O(1)) en las operaciones básicas y permite insertar valores nulos. No es una implementación sincronizada.
 
-Con __LinkedHashSet<E>__ tenemos un rendimiento mejor que TreeSet<E> pero peor que HashSet<E>. Almacena sus valores en una tabla hash con una lista doblemente enlazada, manteniendo el orden de inserción y la posibilidad de almacenar un valor nulo, pero sigue sin estar sincronizada.
+Con __LinkedHashSet<E>__ tenemos un rendimiento mejor que TreeSet<E> pero peor que HashSet<E>. Almacena sus valores en una tabla hash con una lista doblemente enlazada, manteniendo un orden de inserción y la posibilidad de almacenar un valor nulo, pero sigue sin estar sincronizada.
 
-__TreeSet<E>__ almacena sus valores en un árbol red-black, manteniendo el orden basado en sus valores pero con peor rendimiento que el resto de opciones. Los elementos deben implementar Comparable y no se permite insertar nulos, además de no ser una implemmentación sincronizada y con rendimiento de O(log(N)) debido a su estructura de árbol.
+__TreeSet<E>__ almacena sus valores en un árbol red-black, manteniendo un orden basado en sus valores pero con peor rendimiento que el resto de opciones. Los elementos deben implementar Comparable y no se permite insertar nulos, además de no ser una implemmentación sincronizada y con rendimiento de O(log(N)) debido a su estructura de árbol.
