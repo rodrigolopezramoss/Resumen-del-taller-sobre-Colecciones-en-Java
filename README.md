@@ -10,11 +10,9 @@ y algoritmos: métodos para buscar, ordenar, clasificar...
 
 Las ventajas que ofrece son:
 
-Esfuerzo de programación reducido, aumento de la calidad y velocidad del programa.
-
-Permite la interoperabilidad con librerías de terceros y reduce el esfuerzo para aprender y usar otras librerías, parte de disminuir el esfuerzo al diseñar nuevas librerías.
-
-También fomenta la reutilización de software.
+* Esfuerzo de programación reducido, aumento de la calidad y velocidad del programa.
+* Permite la interoperabilidad con librerías de terceros y reduce el esfuerzo para aprender y usar otras librerías, parte de disminuir el esfuerzo al diseñar nuevas librerías.
+* También fomenta la reutilización de software.
 
 ## Colecciones
 
