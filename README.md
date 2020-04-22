@@ -44,3 +44,17 @@ Con __LinkedHashSet<E>__ tenemos un rendimiento mejor que TreeSet<E> pero peor q
 __TreeSet<E>__ almacena sus valores en un árbol red-black, manteniendo un orden basado en sus valores pero con peor rendimiento que el resto de opciones. Los elementos deben implementar Comparable y no se permite insertar nulos, además de no ser una implemmentación sincronizada y con rendimiento de O(log(N)) debido a su estructura de árbol.
 
 ### List
+Se trata de un Collection<E> que permite duplicados y que añade a las funcionalidades de Collection<E> las siguientes:
+Acceso posicional, búsqueda, iteración extendida y operaciones sobre un rango de elementos de la lista.
+
+Las implementaciones de List son:
+
+- ArrayList(Más usual)
+- Vector(Sincronizada pero con métodos Legacy; menos recomendable)
+- LinkedList(Bastante eficiente en algunas ocasiones)
+
+Destaco ArrayList y LinkedList, por lo siguiente:
+
+__ArrayList__ es la más adecuada en la mayoría de las situaciones. Tiene acceso por índice en O(1) y el tipo de inserción, en media, en O(1), pero tiene menos espacio que LinkedList.
+
+Aunque suele tener peor rendimiento, __LinkedList<E>__ tiene más espacio (debe incluir dos referencias). Posee el acceso por índice en O(n) y en cuanto a inserción/borrado: O(1) extremos, O(n) por índice, O(1) en iteración.
