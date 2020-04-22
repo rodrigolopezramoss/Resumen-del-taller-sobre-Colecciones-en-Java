@@ -16,7 +16,7 @@ Las ventajas que ofrece son:
 
 ## Colecciones
 
-La interfaz de colecciones en Java(Collection<E>) hereda de la interfaz Iterable<E>. A su vez, las interfaces Set<E>, List<E> y Queue<E> heredan de Collection<E>, pero Map y sus derivados no. Cabe destacar que permite tener una serie de métodos comunes a (casi) todos los tipos de colecciones, teniendo en cuenta que JDK no ofrece ninguna implementación directa de esta interfaz.
+La interfaz de colecciones en Java(Collection<E>) hereda de la interfaz Iterable<E>. A su vez, las interfaces __Set<E>__, __List<E>__ y __Queue<E>__ heredan de Collection<E>, pero __Map__ y sus derivados no. Cabe destacar que permite tener una serie de métodos comunes a (casi) todos los tipos de colecciones, teniendo en cuenta que JDK no ofrece ninguna implementación directa de esta interfaz.
 
 Las principales operaciones a realizar son las siguientes:
 
@@ -32,3 +32,13 @@ Las principales operaciones a realizar son las siguientes:
 Se trata de un Collection<E> que no permite duplicados y que se basa en la abstracción del concepto matemático de conjunto.
 Set no añade ningún método a los heredados de Collection<E> ni tiene acceso “posicional” (i.e. tercer elemento), pero mejora la implementación de los métodos equals y hashCode con respecto a Collection<E>. En Set se toman dos instancias por iguales si contienen los mismos elementos.
 
+Set se puede implementar como:
+
+- HashSet(Más rápido)
+- LinkedHashSet(Ordena según la inserción)
+- TreeSet(Ordena según el valor)
+
+Con __HashSet<E>__
+No podemos predecir nada sobre el orden pero tiene el mejor rendimiento de todas, que se mejora el si se establece una capacidad
+inicial no muy elevada. Proporciona tiempo constante (O(1)) en las operaciones básicas y permite insertar valores nulos.
+No es una implementación sincronizada.
