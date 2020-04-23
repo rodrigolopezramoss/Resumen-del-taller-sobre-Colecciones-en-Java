@@ -111,4 +111,4 @@ Operaciones con Map
 - Para obtener un valor en base a la clave: get(key)
 - Para consultar si una clave o un valor están contenidos: containsKey(key) / containsValue(value)
 - Para eliminar el par clave, valor: remove(key)
-- Para recorrer un Map: forEach(Obtener un Set con las claves, para cada clave, obtener los valores);Usando el lambdas(Método forEach; expresión lambda (Biconsumer))
+- Para recorrer un Map:  __forEach__(Obtener un Set con las claves, para cada clave, obtener los valores); Usando el __lambdas__(Método forEach; expresión lambda (Biconsumer))
