@@ -73,7 +73,7 @@ Implementaciones:
 - ArrayDeque<E>
 - LinkedList<E>
 
-__Deque<E>__
+### Deque<E>
 Esta interfaz hereda de Queue y puede funcionar como una cola (FIFO) o como una pila (LIFO).
 También puede funcionar como una pila doble o una cola doble.
 
