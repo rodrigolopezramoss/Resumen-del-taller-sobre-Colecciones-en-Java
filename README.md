@@ -58,3 +58,12 @@ Destaco ArrayList y LinkedList, por lo siguiente:
 __ArrayList__ es la más adecuada en la mayoría de las situaciones. Tiene acceso por índice en O(1) y el tipo de inserción, en media, en O(1), pero tiene menos espacio que LinkedList.
 
 Aunque suele tener peor rendimiento, __LinkedList<E>__ tiene más espacio (debe incluir dos referencias). Posee el acceso por índice en O(n) y en cuanto a inserción/borrado: O(1) extremos, O(n) por índice, O(1) en iteración.
+  
+
+### Queue
+Se trata, junto con __Deque__, de una interfaz estrachamente relacionada con List. Queue<E> funciona como una cola (FIFO)
+  
+Las operaciones principales para Queue son:
+- Para inserción: add(e), offer(e)
+- Para extraer: remove(), poll()
+- Para examinar: element(), peek()
