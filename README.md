@@ -78,12 +78,43 @@ Esta interfaz hereda de Queue y puede funcionar como una cola (FIFO) o como una 
 También puede funcionar como una pila doble o una cola doble.
 
 Como cola:
-- Para inserción: add(e), addLast(e)
-                  offer(e), offerLast(e)
-- Para extraer: remove(), removeFirst()
-               poll(), pollFirst()
-- Para examinar: element(), getFirst()
-                peek(), peekFirst()
+- Para inserción: add(e), addLast(e), offer(e), offerLast(e)
+- Para extraer: remove(), removeFirst(), poll(), pollFirst()
+- Para examinar: element(), getFirst(), peek(), peekFirst()
+
+Como pila:
+- Para inserción: push(e), addFirst(e), offerFirst(e)
+- Para extraer: pop(), removeFirst(), pollFirst()
+- Para examinar: peek(), getFirst(), peekFirst()
+
+Como cola doble:
+- Para inserción: addFirst(e), offerFirst(e), addLast(e), offerLast(e)
+- Para extraer: removeFirst(), pollFirst(), removeLast(), pollLast()
+- Para examinar: getFirst(), peekFirst(), getLast(), peekLast()
+
+Implementaciones de Deque:
+- ArrayDeque<E>
+- LinkedList<E>
 
 
+### Map<K,V>
+No hereda de Collection<E> y maneja pares clave,valor habiendo para cada clave, un solo valor. Cada clave puede existir una sola vez en el map, puede haber una clave nula y múltiples valores nulos. En otros lenguajes de programación se le conoce como diccionario.
+No puede almacenar tipos primitivos; hay que usar los tipos wrapper en su lugar (int → Integer)
 
+Map.Entry<K,V>
+- Clase que permite consultar un par clave,valor de un Map.
+- No se pueden utilizar para insertar valores.
+- Se puede obtener un Set<Map.Entry<K,V>> a través del método Map.entrySet().
+
+Operaciones con Map
+- Para insertar una clave y su valor: put(key, value)
+- Para obtener un valor en base a la clave: get(key)
+- Para consultar si una clave o un valor están contenidos: containsKey(key) / containsValue(value)
+- Para eliminar el par clave, valor: remove(key)
+- Para recorrer un Map:
+● Opción 1: forEach
+Obtener un Set con las claves
+Para cada clave, obtener los valores
+● Opción 2: Usando el lambdas
+Método forEach
+Expresión lambda (Biconsumer)
