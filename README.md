@@ -61,9 +61,29 @@ Aunque suele tener peor rendimiento, __LinkedList<E>__ tiene más espacio (debe 
   
 
 ### Queue
-Se trata, junto con __Deque__, de una interfaz estrachamente relacionada con List. Queue<E> funciona como una cola (FIFO)
+Se trata, junto con __Deque__, de una interfaz estrachamente relacionada con List. Queue<E> funciona como una cola (FIFO).
   
 Las operaciones principales para Queue son:
 - Para inserción: add(e), offer(e)
 - Para extraer: remove(), poll()
 - Para examinar: element(), peek()
+
+Implementaciones:
+- PriorityQueue<E>
+- ArrayDeque<E>
+- LinkedList<E>
+
+__Deque<E>__
+Esta interfaz hereda de Queue y puede funcionar como una cola (FIFO) o como una pila (LIFO).
+También puede funcionar como una pila doble o una cola doble.
+
+Como cola:
+- Para inserción: add(e), addLast(e)
+                  offer(e), offerLast(e)
+- Para extraer: remove(), removeFirst()
+               poll(), pollFirst()
+- Para examinar: element(), getFirst()
+                peek(), peekFirst()
+
+
+
